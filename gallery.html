@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Smile Gallery | Melbourne Road Dental Clinic</title>
+    <meta name="description"
+        content="Real patient smile transformations at Melbourne Road Dental Clinic. Before and after results for whitening, veneers, Invisalign, and implants." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <main>
+
+        <!-- ── PAGE HERO ────────────────────────────────────────────── -->
+        <section class="page-hero" aria-label="Page hero">
+            <div class="page-hero-bg" aria-hidden="true"></div>
+            <div class="container page-hero-content">
+                <nav class="breadcrumb reveal" aria-label="Breadcrumb">
+                    <a href="index.html">Home</a>
+                    <span aria-hidden="true">›</span>
+                    <span aria-current="page">Gallery</span>
+                </nav>
+                <h1 class="page-hero-title reveal reveal--delay-1">Smile Gallery</h1>
+                <p class="page-hero-sub reveal reveal--delay-2">Real patients. Real results. Every transformation shown
+                    is from our own clinic — unedited, unfiltered.</p>
+            </div>
+        </section>
+
+        <!-- ── FILTER TABS ────────────────────────────────────────────── -->
+        <section class="gallery-page" aria-labelledby="gallery-page-heading">
+            <div class="container">
+
+                <div class="section-header reveal">
+                    <p class="section-eyebrow">Before &amp; After</p>
+                    <h2 id="gallery-page-heading" class="section-title">Smile transformations<br><em>that define confidence</em></h2>
+                </div>
+
+                <div class="gallery-filter-bar reveal" role="group" aria-label="Filter gallery by treatment">
+                    <button class="gfilter gfilter--active" data-filter="all">All Results</button>
+                    <button class="gfilter" data-filter="whitening">Whitening</button>
+                    <button class="gfilter" data-filter="veneers">Veneers</button>
+                    <button class="gfilter" data-filter="invisalign">Invisalign®</button>
+                    <button class="gfilter" data-filter="implants">Implants</button>
+                    <button class="gfilter" data-filter="composite">Composite</button>
+                </div>
+
+                <!-- Gallery Grid -->
+                <div class="gallery-page-grid" id="gallery-page-grid">
+
+                    <!-- CASE 1 — Whitening -->
+                    <article class="gp-card reveal" data-category="whitening" style="--delay:0s">
+                        <div class="gp-slider-wrap">
+                            <div class="before-after-slider" data-slider>
+                                <div class="ba-before">
+                                    <div class="ba-img-placeholder ba-before-ph"><span>Before</span></div>
+                                    <label class="ba-label ba-label--before">Before</label>
+                                </div>
+                                <div class="ba-after">
+                                    <div class="ba-img-placeholder ba-after-ph"><span>After</span></div>
+                                    <label class="ba-label ba-label--after">After</label>
+                                </div>
+                                <div class="ba-handle" role="slider" aria-label="Drag to compare" tabindex="0"
+                                    aria-valuemin="0" aria-valuemax="100" aria-valuenow="50">
+                                    <div class="ba-handle-line"></div>
+                                    <div class="ba-handle-circle">
+                                        <svg viewBox="0 0 20 20" fill="currentColor" width="14">
+                                            <path d="M7 5l-5 5 5 5V5zm6 0v10l5-5-5-5z" />
+                                        </svg>
+                                    </div>
+                                    <div class="ba-handle-line"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="gp-card-info">
+                            <span class="gp-tag">Whitening</span>
+                            <h3>8-shade zoom whitening</h3>
+                            <p>Single in-chair session · Patient aged 34 · Footscray</p>
+                        </div>
+                    </article>
+
+                    <!-- CASE 2 — Veneers -->
+                    <article class="gp-card reveal" data-category="veneers" style="--delay:0.1s">
+                        <div class="gp-slider-wrap">
+                            <div class="before-after-slider" data-slider>
+                                <div class="ba-before">
+                                    <div class="ba-img-placeholder ba-before-ph"><span>Before</span></div>
+                                    <label class="ba-label ba-label--before">Before</label>
+                                </div>
+                                <div class="ba-after">
+                                    <div class="ba-img-placeholder ba-after-ph"><span>After</span></div>
+                                    <label class="ba-label ba-label--after">After</label>
+                                </div>
+                                <div class="ba-handle" role="slider" aria-label="Drag to compare" tabindex="0"
+                                    aria-valuemin="0" aria-valuemax="100" aria-valuenow="50">
+                                    <div class="ba-handle-line"></div>
+                                    <div class="ba-handle-circle">
+                                        <svg viewBox="0 0 20 20" fill="currentColor" width="14">
+                                            <path d="M7 5l-5 5 5 5V5zm6 0v10l5-5-5-5z" />
+                                        </svg>
+                                    </div>
+                                    <div class="ba-handle-line"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="gp-card-info">
+                            <span class="gp-tag">Veneers</span>
+                            <h3>6 upper porcelain veneers</h3>
+                            <p>2-week turnaround · Patient aged 28 · Sunshine</p>
+                        </div>
+                    </article>
+
+                    <!-- CASE 3 — Invisalign -->
+                    <article class="gp-card reveal" data-category="invisalign" style="--delay:0.2s">
+                        <div class="gp-slider-wrap">
+                            <div class="before-after-slider" data-slider>
+                                <div class="ba-before">
+                                    <div class="ba-img-placeholder ba-before-ph"><span>Before</span></div>
+                                    <label class="ba-label ba-label--before">Before</label>
+                                </div>
+                                <div class="ba-after">
+                                    <div class="ba-img-placeholder ba-after-ph"><span>After</span></div>
+                                    <label class="ba-label ba-label--after">After</label>
+                                </div>
+                                <div class="ba-handle" role="slider" aria-label="Drag to compare" tabindex="0"
+                                    aria-valuemin="0" aria-valuemax="100" aria-valuenow="50">
+                                    <div class="ba-handle-line"></div>
+                                    <div class="ba-handle-circle">
+                                        <svg viewBox="0 0 20 20" fill="currentColor" width="14">
+                                            <path d="M7 5l-5 5 5 5V5zm6 0v10l5-5-5-5z" />
+                                        </svg>
+                                    </div>
+                                    <div class="ba-handle-line"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="gp-card-info">
+                            <span class="gp-tag">Invisalign®</span>
+                            <h3>Crowding & spacing resolved</h3>
+                            <p>14-month treatment · Patient aged 31 · Yarraville</p>
+                        </div>
+                    </article>
+
+                    <!-- CASE 4 — Implant -->
+                    <article class="gp-card reveal" data-category="implants" style="--delay:0.3s">
+                        <div class="gp-slider-wrap">
+                            <div class="before-after-slider" data-slider>
+                                <div class="ba-before">
+                                    <div class="ba-img-placeholder ba-before-ph"><span>Before</span></div>
+                                    <label class="ba-label ba-label--before">Before</label>
+                                </div>
+                                <div class="ba-after">
+                                    <div class="ba-img-placeholder ba-after-ph"><span>After</span></div>
+                                    <label class="ba-label ba-label--after">After</label>
+                                </div>
+                                <div class="ba-handle" role="slider" aria-label="Drag to compare" tabindex="0"
+                                    aria-valuemin="0" aria-valuemax="100" aria-valuenow="50">
+                                    <div class="ba-handle-line"></div>
+                                    <div class="ba-handle-circle">
+                                        <svg viewBox="0 0 20 20" fill="currentColor" width="14">
+                                            <path d="M7 5l-5 5 5 5V5zm6 0v10l5-5-5-5z" />
+                                        </svg>
+                                    </div>
+                                    <div class="ba-handle-line"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="gp-card-info">
+                            <span class="gp-tag">Implants</span>
+                            <h3>Single front tooth implant</h3>
+                            <p>Nobel Biocare® · 6-month process · Patient aged 45 · St Albans</p>
+                        </div>
+                    </article>
+
+                    <!-- CASE 5 — Composite Bonding -->
+                    <article class="gp-card reveal" data-category="composite" style="--delay:0.0s">
+                        <div class="gp-slider-wrap">
+                            <div class="before-after-slider" data-slider>
+                                <div class="ba-before">
+                                    <div class="ba-img-placeholder ba-before-ph"><span>Before</span></div>
+                                    <label class="ba-label ba-label--before">Before</label>
+                                </div>
+                                <div class="ba-after">
+                                    <div class="ba-img-placeholder ba-after-ph"><span>After</span></div>
+                                    <label class="ba-label ba-label--after">After</label>
+                                </div>
+                                <div class="ba-handle" role="slider" aria-label="Drag to compare" tabindex="0"
+                                    aria-valuemin="0" aria-valuemax="100" aria-valuenow="50">
+                                    <div class="ba-handle-line"></div>
+                                    <div class="ba-handle-circle">
+                                        <svg viewBox="0 0 20 20" fill="currentColor" width="14">
+                                            <path d="M7 5l-5 5 5 5V5zm6 0v10l5-5-5-5z" />
+                                        </svg>
+                                    </div>
+                                    <div class="ba-handle-line"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="gp-card-info">
+                            <span class="gp-tag">Composite</span>
+                            <h3>Composite bonding — chipped teeth</h3>
+                            <p>Same-day treatment · Patient aged 22 · Seddon</p>
+                        </div>
+                    </article>
+
+                    <!-- CASE 6 — Whitening + Veneers combo -->
+                    <article class="gp-card reveal" data-category="veneers whitening" style="--delay:0.15s">
+                        <div class="gp-slider-wrap">
+                            <div class="before-after-slider" data-slider>
+                                <div class="ba-before">
+                                    <div class="ba-img-placeholder ba-before-ph"><span>Before</span></div>
+                                    <label class="ba-label ba-label--before">Before</label>
+                                </div>
+                                <div class="ba-after">
+                                    <div class="ba-img-placeholder ba-after-ph"><span>After</span></div>
+                                    <label class="ba-label ba-label--after">After</label>
+                                </div>
+                                <div class="ba-handle" role="slider" aria-label="Drag to compare" tabindex="0"
+                                    aria-valuemin="0" aria-valuemax="100" aria-valuenow="50">
+                                    <div class="ba-handle-line"></div>
+                                    <div class="ba-handle-circle">
+                                        <svg viewBox="0 0 20 20" fill="currentColor" width="14">
+                                            <path d="M7 5l-5 5 5 5V5zm6 0v10l5-5-5-5z" />
+                                        </svg>
+                                    </div>
+                                    <div class="ba-handle-line"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="gp-card-info">
+                            <span class="gp-tag">Veneers + Whitening</span>
+                            <h3>Full smile makeover</h3>
+                            <p>8 veneers + whitening · Patient aged 39 · Maidstone</p>
+                        </div>
+                    </article>
+
+                </div>
+
+                <p class="gallery-note reveal" style="margin-top:2rem">
+                    * All results shown are from actual patients treated at Melbourne Road Dental Clinic. Individual
+                    results may vary. Photos are unretouched.
+                </p>
+
+            </div>
+        </section>
+
+        <!-- ── PATIENT QUOTE BAND ─────────────────────────────────────── -->
+        <section class="quote-band" aria-label="Patient quote">
+            <div class="container">
+                <blockquote class="quote-band-quote reveal">
+                    <p>"I had been hiding my smile for years. The team at Melbourne Road Dental gave me the confidence
+                        to smile again — genuinely. The result is beyond anything I imagined."</p>
+                    <footer>— Priya R., <cite>Porcelain Veneers Patient · St Albans</cite></footer>
+                </blockquote>
+            </div>
+        </section>
+
+        <!-- ── CTA BAND ───────────────────────────────────────────────── -->
+        <section class="cta-band" aria-label="Call to action">
+            <div class="container cta-band-inner reveal">
+                <div>
+                    <h2>Want results like these?</h2>
+                    <p>Book a free smile consultation and let's talk about what's possible for you.</p>
+                </div>
+                <a href="contact.html" class="btn btn--gold btn--lg">Book Free Consult</a>
+            </div>
+        </section>
+
+    </main>
+
+    <script src="components.js"></script>
+    <script src="script.js"></script>
+    <script>
+        /* Gallery Filter */
+        const filters = document.querySelectorAll(".gfilter");
+        const cards = document.querySelectorAll(".gp-card");
+
+        filters.forEach(btn => {
+            btn.addEventListener("click", function () {
+                filters.forEach(b => b.classList.remove("gfilter--active"));
+                this.classList.add("gfilter--active");
+
+                const cat = this.dataset.filter;
+                cards.forEach(card => {
+                    const cats = card.dataset.category || "";
+                    const show = cat === "all" || cats.includes(cat);
+                    card.style.display = show ? "" : "none";
+                    if (show) {
+                        card.classList.remove("is-visible");
+                        requestAnimationFrame(() => {
+                            setTimeout(() => card.classList.add("is-visible"), 30);
+                        });
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>
